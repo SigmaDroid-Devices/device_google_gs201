@@ -30,9 +30,6 @@ endif
 PRODUCT_COPY_FILES += \
     device/google/gs201/conf/disable_hbmsv.sh:$(TARGET_COPY_OUT_SYSTEM)/bin/disable_hbmsv.sh
 
-# Lineage Health
-include hardware/google/pixel/lineage_health/device.mk
-
 # Linker config
 PRODUCT_VENDOR_LINKER_CONFIG_FRAGMENTS += \
     device/google/gs201/linker.config.json
